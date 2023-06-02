@@ -1,0 +1,13 @@
+.navigation{
+    position: sticky;
+    top: 40px;
+    z-index: 100;
+}
+.welcome-page{
+    position: relative;
+    top: -75px;
+}
+.dashboard{
+    position: relative;
+    top: 80px;
+}

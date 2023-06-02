@@ -1,0 +1,39 @@
+@import url("//fonts.googleapis.com/css2?family=Alata:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+nav{
+    height: 75px;
+    width: 80%;
+    background: #FFE3E0;
+    margin: auto;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+nav img{
+    height: 45px;
+    margin-left: 5%;
+}
+nav div{
+    margin-right: 5%;
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+nav div button:first-child{
+    background: none;
+    border: none;
+    font-family:'Alata', sans-serif;
+
+}
+nav div button:nth-child(2){
+    height: 36px;
+    width: 92px;
+    border: none;
+    border-radius: 50px;
+    background: #FFFFE0;
+    font-family:'Alata', sans-serif;
+    font-weight:600;
+    font-size:16px;
+}

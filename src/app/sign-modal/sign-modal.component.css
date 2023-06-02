@@ -1,0 +1,77 @@
+@import url("//fonts.googleapis.com/css2?family=Alata:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.modal-sign {
+    height: 350px;
+    width: 400px;
+    background-color: #D4D0E1;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Alata', sans-serif;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span:first-child {
+    color: #505e86;
+}
+
+.txt::placeholder {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+
+}
+.labels{
+    margin-top: -15px;
+}
+
+.txt {
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 11px 5px rgba(12, 11, 11, 0.25);
+    border-radius: 7px;
+    border: none;
+    height: 40px;
+    font-size: large;
+    text-align: center;
+}
+
+.close-modal {
+    position: relative;
+    left: 480px;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #d4d0e1;
+}
+
+.close-modal img {
+    height: 34px;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+a {
+    padding-left: 45px;
+    color: #505050;
+    text-decoration: none;
+}
+
+
+.labels label {
+    color: #505050;
+}
+
+.sign {
+    background: #FFFFC0;
+    box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    height: 45px;
+    width: 120px;
+    margin-bottom: 20px;
+}

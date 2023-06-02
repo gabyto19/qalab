@@ -1,0 +1,133 @@
+@import url("//fonts.googleapis.com/css2?family=Alata:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+
+header {
+    height: 500px;
+    width: 100%;
+    transform: translatex(0px) translatey(0px);
+    background-image: linear-gradient(to right, #355c7d 0%, #6c5b7b 33%, #c06c84 100%);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+header img {
+    height: 250px;
+}
+
+header img:first-child {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header button {
+    margin-bottom: 30px;
+    height: 46px;
+    width: 170px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFE3E0;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 0.4px;
+
+}
+
+.works {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.first-div {
+    width: 70%;
+    height: 300px;
+}
+
+.first-div div {
+    width: 50%;
+    height: 100%;
+}
+
+.first-div div:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: green;
+
+}
+
+.first-div div:nth-child(2) {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #F4F4F4;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-div div:nth-child(2) p,
+.first-div div:nth-child(2) h2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.first-div div:nth-child(2) p {
+    position: relative;
+    top: 70px;
+}
+
+.first-div div:nth-child(2) h2 {
+    position: relative;
+    top: 33px;
+}
+
+.second-div {
+    width: 40%;
+    height: 300px;
+    background: #F4F4F4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.become-tester {
+    background: #D4D7E8;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 600px;
+}
+
+.card {
+    height: 360px;
+    width: 250px;
+    list-style: none;
+
+}
+.card li{
+    margin: auto;
+}
+
+.become-tester h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% !important;
+    margin-top: 70px;
+}
+
+.cards div {
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.test{
+    height: 140px;
+    width: 140px;
+    background-color: red !important;
+    border-radius: 100px !important;
+}

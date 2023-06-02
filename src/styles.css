@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Mat dialog surface */
+.mat-mdc-dialog-container .mat-mdc-dialog-surface {
+    border-radius: 30px !important;
+}
+
+.mat-mdc-dialog-container .mat-mdc-dialog-surface {
+    background: transparent !important;
+}
+.mat-mdc-dialog-container .mdc-dialog__surface {
+    box-shadow: none !important;
+}
