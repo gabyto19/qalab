@@ -1,7 +1,37 @@
-<nav>
-    <img src="../../assets/Logo.png" alt="">
-    <div class="d-flex ">
-        <button (click)="openDialog()">Log In</button>
-        <button (click)="openRegister()">Join Us</button>
-    </div>
+<nav *ngIf="false" class="first">
+  <img src="../../assets/Logo.png" alt="">
+  <div class="d-flex ">
+    <button (click)="openDialog()">Log In</button>
+    <button (click)="openRegister()">Join Us</button>
+  </div>
+</nav>
+
+<nav class="second">
+  <div class="left-nav list-unstyled align-items-center d-flex">
+    <li><button class="left-buttons"><img src="../../assets/icons8-home-30.png" alt="">Home</button></li>
+    <li><button class="left-buttons"><img src="../../assets/icons8-book-64.png" alt="">Courses</button></li>
+    <li>
+      <div ngbDropdown class="d-inline-block">
+        <button type="button" class="left-buttons" id="dropdownBasic1" ngbDropdownToggle>
+          <img src="../../assets/icons8-project-64.png" alt="">
+          Projects
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdownbox">
+          <li><a href="#">TEST CYCLES</a></li>
+          <li><a href="#">ISSUES</a></li>
+          <li><a href="#">TEST CASES</a></li>
+        </div>
+      </div>
+    </li>
+
+  </div>
+
+  <img class="logo" src="../../assets/Logo.png" alt="">
+
+  <div class="right-nav">
+    <img src="../../assets/icons8-message-96.png" alt="">
+    <img src="../../assets/icons8-bell-96.png" alt="">
+    <img src="../../assets/Profile.png" alt="">
+  </div>
+
 </nav>

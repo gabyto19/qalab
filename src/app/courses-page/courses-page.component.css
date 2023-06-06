@@ -1,0 +1,60 @@
+@import url("//fonts.googleapis.com/css2?family=Alata:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.main-div {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.col {
+    border-style: groove;
+}
+
+mat-grid-tile {
+    border: solid #9CA5C4 3px;
+    box-shadow: inset 2px 4px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+mat-grid-tile div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+mat-grid-tile div p:nth-child(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+mat-grid-tile div button {
+    width: 100px;
+    height: 35px;
+    background: #FFFFC0;
+    border: 1px solid #9CA5C4;
+    border-radius: 31px;
+    font-family:'Alata', sans-serif;
+    font-size:16px;
+    font-weight:600;
+}
+
+.number {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    border-radius: 50px;
+    background: #435072;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}

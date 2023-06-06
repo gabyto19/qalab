@@ -1,6 +1,6 @@
 @import url("//fonts.googleapis.com/css2?family=Alata:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-nav{
+nav {
     height: 75px;
     width: 80%;
     background: #FFE3E0;
@@ -11,29 +11,106 @@ nav{
     align-items: center;
     z-index: 100;
 }
-nav img{
+
+.first img {
     height: 45px;
     margin-left: 5%;
 }
-nav div{
+
+.first div {
     margin-right: 5%;
     display: flex;
     width: 160px;
     justify-content: space-between;
 }
-nav div button:first-child{
+
+.first div button:first-child {
     background: none;
     border: none;
-    font-family:'Alata', sans-serif;
+    font-family: 'Alata', sans-serif;
 
 }
-nav div button:nth-child(2){
+
+.first div button:nth-child(2) {
     height: 36px;
     width: 92px;
     border: none;
     border-radius: 50px;
     background: #FFFFE0;
-    font-family:'Alata', sans-serif;
-    font-weight:600;
-    font-size:16px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
+
+/* Button */
+.left-buttons {
+    background-color: #ffffff !important;
+    height: 35px;
+    width: 107px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 2px 2px 11px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.left-nav {
+    margin-left: 2%;
+    width: 300px;
+}
+
+.left-nav li {
+    margin-left: 5%;
+}
+
+.logo {
+    height: 70px;
+}
+
+.right-nav img {
+    height: 30px;
+}
+
+.right-nav img:nth-child(3) {
+    height: 70px;
+}
+
+.right-nav {
+    width: 140px;
+    margin-right: 40px;
+    margin-left: 120px;
+}
+
+.left-nav img {
+    height: 20px;
+    margin-right: 7px;
+}
+
+.dropdownbox {
+    width: 130px;
+    transform: translate(-6px, 35px) !important;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.dropdownbox li a:hover {
+    background: white !important;
+
+}
+
+.dropdownbox a {
+    text-decoration: none;
+    background-color: white;
+    width: 107px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 11px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+

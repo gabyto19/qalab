@@ -1,0 +1,25 @@
+@import url("//fonts.googleapis.com/css2?family=Almarai:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.main-div {
+    width: 900px;
+    height: 650px;
+    margin: auto;
+    background-color:#D4D7E8;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid 2px;
+
+    font-family:'Almarai', sans-serif;
+}
+
+.main-div li{
+    background: white;
+    border-radius: 40px;
+    height: 90px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-weight:500;
+    font-size:17px;
+}

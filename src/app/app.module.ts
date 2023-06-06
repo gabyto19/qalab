@@ -8,14 +8,21 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SignModalComponent } from './sign-modal/sign-modal.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-import {FormsModule} from '@angular/forms';
-import {MatDialogModule} from '@angular/material/dialog';
 import { RegisterModalComponent } from './register-modal/register-modal.component';
 import { DashboardPageComponent } from './dashboard-page/dashboard-page.component';
+import { CoursesPageComponent } from './courses-page/courses-page.component';
+import { TestsComponent } from './tests/tests.component';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSelectModule } from '@angular/material/select';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,7 +32,9 @@ import { DashboardPageComponent } from './dashboard-page/dashboard-page.componen
     SignModalComponent,
     WelcomePageComponent,
     RegisterModalComponent,
-    DashboardPageComponent
+    DashboardPageComponent,
+    CoursesPageComponent,
+    TestsComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +45,11 @@ import { DashboardPageComponent } from './dashboard-page/dashboard-page.componen
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatSelectModule,
+    MatGridListModule,
+    NgbModule,
+    NgbProgressbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
