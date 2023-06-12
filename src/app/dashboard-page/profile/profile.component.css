@@ -1,0 +1,24 @@
+.right {
+    height: 100%;
+}
+
+.card {
+    width: 80%;
+    height: 180px ;
+    padding: 0px 13px 0px 13px;
+    border-radius: 20px;
+}
+
+.card li {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.title{
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #B9B9B9;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

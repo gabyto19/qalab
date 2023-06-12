@@ -1,7 +1,6 @@
-<app-navigation></app-navigation>
-<app-welcome-page></app-welcome-page>
-
-
-
-
-<app-footer></app-footer>
+<app-navigation class="navigation"></app-navigation>
+<div [ngSwitch]="selected">
+    <app-welcome-page  class="welcome-page" *ngSwitchCase="'welcome'"></app-welcome-page>
+    <app-dashboard-page class="welcome-page" *ngSwitchCase="'dashboard'"></app-dashboard-page>
+</div>
+<app-footer *ngIf="selected == 'welcome'"></app-footer>

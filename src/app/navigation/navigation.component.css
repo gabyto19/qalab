@@ -114,3 +114,35 @@ nav {
     font-size: 12px;
 }
 
+.profile-button{
+    background: none;
+    border: none;
+}
+
+.profile-button::after{
+    appearance: none;
+    opacity: 0;
+}
+.profile-button img{
+    height: 56px;
+}
+.profiledropdown{
+    transform: translatex(-35px) translatey(66px) !important;
+    width:155px;
+    height:150px;
+    font-family:'Sarala', sans-serif;
+    font-weight:500;
+    font-size:15px;
+    text-align:center;
+    text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+    background-color: #435072;
+    border-radius: 15px;
+}
+.profiledropdown a{
+    text-decoration: none;
+    color: white;
+}
+
+.profiledropdown a:hover{
+    background-color: #435072;
+}

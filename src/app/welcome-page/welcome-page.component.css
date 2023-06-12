@@ -108,6 +108,10 @@ header button {
 .card li{
     margin: auto;
 }
+.card p{
+    margin: 0 0 33px;
+    font-size: medium;
+}
 
 .become-tester h1 {
     padding-top: 30px;
@@ -128,6 +132,12 @@ header button {
 .test{
     height: 140px;
     width: 140px;
-    background-color: red !important;
+    background-color: #D4D7E8 !important;
     border-radius: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test img{
+    height: 100px;
 }

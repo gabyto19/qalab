@@ -1,0 +1,92 @@
+<div class="left">
+    <h1 class="text-center mx-auto">ACTIVITY</h1>
+    <div class="dashboard-div">
+        <div class="list-unstyled d-flex justify-content-between">
+            <li [ngClass]="{ 'invitation-nav': dashOption =='all'}" (click)="chooseDashboard('all')">ALL</li>
+            <li [ngClass]="{ 'invitation-nav': dashOption =='invitation'}" (click)="chooseDashboard('invitation')">INVITATION</li>
+            <li [ngClass]="{ 'invitation-nav': dashOption =='projects'}" (click)="chooseDashboard('projects')">MY PROJECTS</li>
+            <li [ngClass]="{ 'invitation-nav': dashOption =='community'}" (click)="chooseDashboard('community')">COMMUNITY</li>
+        </div>
+        <div [ngSwitch]="dashOption">
+            <div *ngSwitchCase="'all'" class="log-div pt-3">
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+
+            </div>
+            <div *ngSwitchCase="'invitation'" class="log-div pt-3">
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+            </div>
+            <div *ngSwitchCase="'projects'" class="log-div pt-3">
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+            </div>
+            <div *ngSwitchCase="'community'" class="log-div pt-3">
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+                <div class="logs d-flex align-items-center">
+                    <div class="w-50 d-flex justify-content-around h-100 align-items-center">
+                        <img src="../../assets/Profile.png" alt="">
+                        <p><strong>Chukwudi E. </strong>started following you</p>
+                    </div>
+                    <p style="margin-right: 50px;">Yesterday</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

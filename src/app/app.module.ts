@@ -23,6 +23,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
+import { FootModalsComponent } from './foot-modals/foot-modals.component';
+import { DashboardComponent } from './dashboard-page/dashboard/dashboard.component';
+import { ProfileComponent } from './dashboard-page/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
     DashboardPageComponent,
     CoursesPageComponent,
     TestsComponent,
+    FootModalsComponent,
+    DashboardComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,

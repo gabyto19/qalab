@@ -1,0 +1,203 @@
+<div class="main-div">
+
+    <div [ngSwitch]="selectedOption">
+        <div *ngSwitchCase="'guid'">
+
+            <h1>Community Guidelines</h1>
+            <ol>
+                <li *ngFor="let item of guidlines">{{item}}</li>
+            </ol>
+            <h1>Industry Standards & Guidelines for Projects</h1>
+            <ol>
+                <li *ngFor="let standard of standarts">{{standard}}</li>
+            </ol>
+
+        </div>
+        <div *ngSwitchCase="'privacy'">
+            <h1>Privacy Policy</h1>
+            <h2>1.NOTICE</h2>
+            <p>{{notice}}</p>
+            <h3><strong>Information collected from website visitors</strong></h3>
+            <h4>For visitors to our site, we will:</h4>
+            <ol>
+                <li *ngFor="let visitors of forVisitors">{{visitors}}</li>
+            </ol>
+            <p>The information we collect is used to provide visitors with and improve the content of our website.
+                The information we collect is not shared with other third-party organizations for their own commercial
+                purposes.</p>
+            <h3><strong>Information collected from testers</strong></h3>
+            <p>When you register on and further engage or use services provided through our website, you agree to our
+                collection and use of your PI as described in this statement.</p>
+            <p>
+                Note: regarding children’s personal information – does not knowingly collect PI from children. We do not
+                sell the PI of minors.
+                If you learn that your child has provided us with PI without your consent, please reach out to our Data
+                Protection Officer at privacydpo@applause.com.
+                If we learn that we have collected any PI in violation of applicable law, we will promptly take steps to
+                delete such information and terminate the child’s account.
+            </p>
+            <p>The categories of PI we may collect includes the following so that we may identify you for the purposes
+                of:
+            </p>
+            <ul>
+                <li *ngFor="let p of pi">{{p}}</li>
+            </ul>
+            <p>Except for PI which you may provide in your profile and/or in connection with testing projects, we do
+                not share any of your PI with any person or entity.
+                By providing your profile information or participating in any testing project, you acknowledge and agree
+                that we may share such information with Applause Customers
+                and other Members as necessary for operational purposes.
+                We will never sell, share or rent your information to any third-parties or marketing firms.</p>
+            <p>The PI you provide may be used to:</p>
+            <ul>
+                <li *ngFor="let used of usedTo">{{used}}</li>
+            </ul>
+            <p>We do collect non-identifying, general, generic and aggregate information to better design our web site
+                and
+                services. We may share the non-identifiable, aggregate data with other third parties. With respect to
+                payments made to testers: *web uses PayPal, which utilizes industry-standard encryption technologies
+                when transferring and receiving data exchanged with our site.</p>
+            <h2>2. SECURITY</h2>
+            <p>We take reasonable steps, consistent with generally accepted industry standards, including physical,
+                technical, organizational, operational and management controls to ensure a level of security appropriate
+                to
+                the risk of PI processing.</p>
+            <h2>3. CHOICE</h2>
+            <p>From time to time, we may change our privacy policy. If our information practices change at some time in
+                the
+                future we will post the policy changes to our website to notify you of these changes. If you are
+                concerned
+                about how your information is used, please reach out to our Data Protection Officer at
+                privacydpo@applause.com.</p>
+            <p>Except as set out in this policy, we will provide you with notice and give you the right to opt out if
+                your
+                PI is to be disclosed to a new third party controller or to be used for a purpose materially different
+                from
+                the purpose for which it was originally collected and/or subsequently authorized and consented to by
+                you.
+            </p>
+            <p>We acknowledge that EU and Swiss individuals (as well as California residents) have the right to access
+                the
+                personal information/data that we maintain about them. To the extent you cannot correct any information
+                by
+                updating your uTest profile, we will provide you with access to and/or the opportunity to correct all
+                information that we maintain about you upon your request. Please direct your request to
+                privacydpo@applause.com. We will respond to you within the time period required by applicable laws, and
+                in
+                any event within 45 days of receiving your request.</p>
+            <h2>4. ONWARD TRANSFER</h2>
+            <p>Only those third parties which are set out in this Privacy Policy, or with whom you have transactions
+                will
+                receive your information.</p>
+            <p>{{onward}}</p>
+            <h2>5. DATA TRANSFERS – EU-US, GDPR AND SWISS-US PRIVACY SHIELD FRAMEWORK</h2>
+            <p>The Information that we collect from you may be transferred to, and stored at, a destination outside of
+                your
+                country and the European Economic Area ("EEA") and, in particular, the US, which may have different or
+                less
+                protective privacy laws than those in your country.</p>
+            <p>The protection of personal data is important to us. We process personal data only in accordance with the
+                applicable data protection requirements, in particular the General Data Protection Regulation (GDPR), as
+                well as the EU-US Privacy Shield and the Swiss-US Privacy Shield Program to best protect the transfer of
+                personal data from European Economic Area, Switzerland and the UK to the US and other third party
+                countries.
+                As a general business practice, we enter into Data Protection Agreements and other terms and conditions
+                that
+                incorporate by reference the Standard Contractual Clauses adopted by the European Commission as between
+                Applause and our vendors and subprocessors.</p>
+            <p>
+                uTest complies with the EU-US Privacy Shield Framework and the Swiss-US Privacy Shield Framework as set
+                forth by the US Department of Commerce regarding the collection, use, and retention of personal
+                information.
+            </p>
+            <p>Prior to July 16, 2020, Applause relied on its EU-U.S. and Swiss-U.S. Privacy Shield certifications as
+                the
+                legal mechanism to enable data transfers from the European Union (EU) and Switzerland to the U.S. Since
+                July
+                16, 2020, we use Standard Contractual Clauses to enable data transfers from the EU, UK, and Switzerland.
+                Although Applause no longer relies on the EU-U.S. and the Swiss-U.S. Privacy Shield Frameworks as valid
+                legal bases for such international transfers, we continue to participate in and will maintain its
+                compliance
+                with the EU-U.S. Privacy Shield Framework and Swiss-U.S. Privacy Shield Framework.</p>
+            <p>
+                *web has certified that it adheres to the Privacy Shield Principles of Notice, Choice, Accountability
+                for
+                Onward Transfer, Security, Data Integrity and Purpose Limitation, Access, and Recourse, Enforcement and
+                Liability. If there is any conflict between the policies in this privacy policy and the Privacy Shield
+                Principles, the Privacy Shield Principles shall govern. To learn more about the Privacy Shield program,
+                and
+                to view our certification page, please visit https://www.privacyshield.gov/. With respect to personal
+                data
+                transferred pursuant to the EU-US and Swiss-US Privacy Shield Framework.
+            </p>
+            <h2>6. ADDITIONAL INFORMATION FOR CALIFORNIA RESIDENTS</h2>
+            <p>California law requires that we disclose certain information regarding the categories of Personal
+                Information” (PI) we collect. For purposes of this policy, PI has the meaning provided by the California
+                Consumer Privacy Act (CCPA, as amended), and does not include information that is publicly available,
+                that
+                is deidentified or aggregated such that it is not capable of being associated with us, or that is
+                excluded
+                from the CCPA’s scope, such as PI covered by certain sector-specific privacy laws, such as HIPAA, the
+                FCRA,
+                GLBA or the Driver's Privacy Protection Act of 1994.</p>
+            <h3>For purposes of the CCPA, Applause has not sold PI relating to California (CA) residents in the last 12
+                months.</h3>
+            <h3><strong>I. Collection and use of PI</strong></h3>
+            <p>A. We collect PI from and about CA consumers for a variety of purposes as set forth in Section B.</p>
+            <p>B. For California residents, the type of PI we collect will depend on how you engage with us (for
+                example, as
+                a customer or potential customer, or as a website visitor). In the last 12 months, we have collected the
+                following categories of PI generally:</p>
+            <ul>
+                <li *ngFor="let i of collection">{{i}}</li>
+            </ul>
+            <p>C. We collect this information directly from you, from our business partners and affiliates, from your
+                browser or device when you visit our website,*web, or from third parties that you permit to share
+                information with us.</p>
+            <p>D. We retain personal information for as long as it is needed for business, record-keeping, financial,
+                tax,
+                audit, or legal purposes. We do not use personal information for automated decision making. For detailed
+                information about the PI collected, please see Exhibit 1 as referenced in Section 4.</p>
+            <h3><strong> Disclosure of PI</strong></h3>
+            <p>A. We share PI with third parties for business purposes. The categories of third parties to whom we
+                disclose
+                your
+                PI may include:</p>
+            <ul>
+                <li *ngFor="let j of disclosure">{{j}}</li>
+            </ul>
+            <p>B. When we disclose your PI to our service providers, vendors or other third parties that process the
+                information
+                on our behalf, we have entered into a written contract that includes terms substantially similar to this
+                notice
+                and we will remain liable for any breach of this notice that is caused by the acts or omissions of our
+                service
+                providers.</p>
+            <p>C. We do not sell your PI for monetary or other valuable consideration. Our use of cookies and other
+                similar
+                technologies may be considered a sale of personal information under applicable law. Please see below for
+                information on exercising your rights and choices. For more detail on how your PI may be processed,
+                please
+                see
+                Exhibit 1 as referenced in Section 4.</p>
+            <h3><strong>III. Rights and Choices</strong></h3>
+            <p>A. As a California resident, you may exercise the following rights:</p>
+
+        </div>
+        <div *ngSwitchCase="'terms'">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quidem soluta, recusandae et magnam officiis
+                explicabo nostrum veritatis voluptates pariatur, placeat maiores. Magnam reiciendis voluptates assumenda
+                porro quisquam, dignissimos quis!</p>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti officiis vero veniam saepe
+                atque,
+                aperiam facilis dolore ipsum sit quaerat optio reprehenderit laboriosam repudiandae explicabo, pariatur
+                nulla, voluptates sapiente.</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem libero veritatis odio ex nesciunt,
+                corporis
+                magni architecto dignissimos ea vitae? Ipsum maxime nemo sunt similique repellat fuga molestias itaque
+                temporibus!</h3>
+        </div>
+    </div>
+
+
+</div>

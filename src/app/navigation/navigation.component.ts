@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
 export class NavigationComponent {
   constructor(private matDialog: MatDialog) { }
 
-  selected = 'op';
+  selected = false;
 
 
   openDialog() {
